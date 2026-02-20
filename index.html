@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cdnjs-test-package-git/0.0.33/index.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,19 +14,34 @@
     <div class="container">
         <div class="todo-app">
             <h1>To-Do App </h1>
+            <div class="progress-container">
+                <div class="progress-info">
+                    <h3 id="progress-message">Keep it up!</h3>
+                </div>
+
+                <div class="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+                <span id="progress-text">0 / 0</span>
+            </div>
             <form class="input-area">
                 <input type="text" id="task-input" placeholder="Add a new task...">
-                <button type="submit" id="add-task" <i class="fa-solid fa-plus"></i>></button>
+                <button type="submit" id="add-task">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+
             </form>
             <div class="todos-container">
-                <ul id="task-list"></ul>
-                <img src="img 2.png" alt="empty">
+                <ul id="task-list">
+
+                </ul>
             </div>
         </div>
     </div>
 
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
