@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         toggleEmptyState();
         updateProgress();
-    }
+    }  
 
     // Add Task (Create)
     function addTask(text = null, completed = false) {
