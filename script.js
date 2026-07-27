@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         progressFill.style.width = percentage + "%";
 
     }
-
+ 
 
     // Save To LocalStorage
     function saveToLocalStorage() {
